@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/lib/libobjectclear.so:system/lib/libobjectclear.so \
     vendor/nubia/nx512j/proprietary/lib/libobjectclear_nubia.so:system/lib/libobjectclear_nubia.so \
     vendor/nubia/nx512j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/nubia/nx512j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/nubia/nx512j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx512j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
