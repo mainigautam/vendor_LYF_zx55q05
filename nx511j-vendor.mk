@@ -290,6 +290,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libchromatix_imx179_common.so:system/vendor/lib64/libchromatix_imx179_common.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libchromatix_imx179_default_video.so:system/vendor/lib64/libchromatix_imx179_default_video.so \
