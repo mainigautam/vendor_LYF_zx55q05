@@ -167,15 +167,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -313,13 +309,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
@@ -368,14 +360,58 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
-    vendor/nubia/nx511j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
+    vendor/nubia/nx511j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+    vendor/nubia/nx511j/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/nubia/nx511j/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/nubia/nx511j/proprietary/vendor/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/nubia/nx511j/proprietary/vendor/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/nubia/nx511j/proprietary/vendor/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libxt_native.so:system/lib64/libxt_native.so
+
+# GPS-blobs (kang from ZTE Axon 7)
+PRODUCT_COPY_FILES += \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
+    vendor/nubia/nx511j/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/nubia/nx511j/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
+    vendor/nubia/nx511j/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
+    vendor/nubia/nx511j/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
+    vendor/nubia/nx511j/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
+    vendor/nubia/nx511j/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
+    vendor/nubia/nx511j/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/nubia/nx511j/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalarmservice_jni.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libdrplugin_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrplugin_client.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDRPlugin.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
+vendor/nubia/nx511j/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
+vendor/nubia/nx511j/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api \
     libtime_genoff \
     TimeService \
     colorservice \
+    com.qualcomm.location \
     shutdownlistener \
     qcrilmsgtunnel \
     qcnvitems \
