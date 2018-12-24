@@ -404,7 +404,15 @@ PRODUCT_COPY_FILES += \
 vendor/nubia/nx511j/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
 vendor/nubia/nx511j/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so
 
+# ANT-blobs (kang from ZTE Axon 7)
+PRODUCT_COPY_FILES += \
+    vendor/nubia/nx511j/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
+    
+
 PRODUCT_PACKAGES += \
+    libantradio \
     libloc_api_v02 \
     libtime_genoff \
     TimeService \
