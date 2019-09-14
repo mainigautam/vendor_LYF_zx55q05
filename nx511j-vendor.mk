@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib/libobjectclear_nubia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libobjectclear_nubia.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/nubia/nx511j/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskia.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlgorithm.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libBuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBuffer.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/libFNVfbEngineLib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNVfbEngineLib.so \
