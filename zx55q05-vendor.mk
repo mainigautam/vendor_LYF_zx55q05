@@ -674,7 +674,13 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so  \
+		vendor/LYF/zx55q05/proprietary/vendor/bin/mm-qjpeg-dec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-dec-test  \
+		vendor/LYF/zx55q05/proprietary/vendor/bin/mm-qjpeg-enc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-enc-test  \
+    vendor/LYF/zx55q05/proprietary/vendor/bin/mm-qomx-idec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-idec-test  \
+		vendor/LYF/zx55q05/proprietary/vendor/bin/mm-vidc-omx-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-vidc-omx-test  \
+		vendor/LYF/zx55q05/proprietary/vendor/bin/mm-qomx-ienc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-ienc-test  \
+		vendor/LYF/zx55q05/proprietary/vendor/bin/wcnss_service:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_service
 
 # GPS-blobs (kang from xiaomi_msm8953-common)
 PRODUCT_COPY_FILES += \
