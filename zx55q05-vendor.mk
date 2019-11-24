@@ -138,9 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64297gwz.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64297gwz_camcorder.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64297gwz_camera.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
@@ -256,9 +253,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbmapper.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib64/libactuator_rohm_bu64297gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_rohm_bu64297gwz.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib64/libactuator_rohm_bu64297gwz_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_rohm_bu64297gwz_camcorder.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib64/libactuator_rohm_bu64297gwz_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_rohm_bu64297gwz_camera.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
