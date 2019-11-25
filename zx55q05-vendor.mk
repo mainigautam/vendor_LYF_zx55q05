@@ -16,6 +16,7 @@
 # This file is generated manually by mainigautam :-P
 
 PRODUCT_COPY_FILES += \
+    vendor/LYF/zx55q05/proprietary/vendor/bin/sensorservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorservice \
     vendor/LYF/zx55q05/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/LYF/zx55q05/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/LYF/zx55q05/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
