@@ -16,7 +16,6 @@
 # This file is generated manually by mainigautam :-P
 
 PRODUCT_COPY_FILES += \
-    vendor/LYF/zx55q05/proprietary/vendor/bin/sensorservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorservice \
     vendor/LYF/zx55q05/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/LYF/zx55q05/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/LYF/zx55q05/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
@@ -56,7 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
     vendor/LYF/zx55q05/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/LYF/zx55q05/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/hw/camera.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8916.so \
+     vendor/LYF/zx55q05/proprietary/vendor/lib/hw/camera.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8916.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
@@ -264,10 +263,9 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libcalmodule_akm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_akm.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_gyroscope.so \
-		vendor/LYF/zx55q05/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)firmware/cpp_firmware_v1_1_1.fw  \
-		vendor/LYF/zx55q05/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)firmware/cpp_firmware_v1_1_6.fw  \
-		vendor/LYF/zx55q05/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)firmware/cpp_firmware_v1_2_0.fw  \
-		vendor/LYF/zx55q05/proprietary/vendor/lib/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8916.so  \
+		vendor/LYF/zx55q05/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw  \
+		vendor/LYF/zx55q05/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw  \
+		vendor/LYF/zx55q05/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib/libOmxVdecHevc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdecHevc.so  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_bu64297_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297_q13v06k.so  \
@@ -581,8 +579,7 @@ PRODUCT_COPY_FILES += \
 		vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_t4kb3_qtech.so  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_t4kb3_qtech_eeprom.so  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so  \
-		vendor/LYF/zx55q05/proprietary/vendor/lib64/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8916.so  \
-		vendor/LYF/zx55q05/proprietary/vendor/lib64/libOmxVdecHevc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdecHevc.so  \
+	        vendor/LYF/zx55q05/proprietary/vendor/lib64/libOmxVdecHevc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdecHevc.so  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib64/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_dw9718s.so  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib64/libactuator_dw9718s_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_dw9718s_camcorder.so  \
 		vendor/LYF/zx55q05/proprietary/vendor/lib64/libactuator_dw9718s_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_dw9718s_camera.so  \
@@ -681,8 +678,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/bin/mm-qomx-idec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-idec-test  \
 		vendor/LYF/zx55q05/proprietary/vendor/bin/mm-vidc-omx-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-vidc-omx-test  \
 		vendor/LYF/zx55q05/proprietary/vendor/bin/mm-qomx-ienc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-ienc-test  \
-		vendor/LYF/zx55q05/proprietary/vendor/bin/wcnss_service:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_service
-
+		
 # GPS-blobs (kang from xiaomi_msm8953-common)
 PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
