@@ -214,6 +214,8 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscale.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
+		vendor/LYF/zx55q05/proprietary/vendor/etc/calmodule.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/calmodule.cfg  \
+	  vendor/LYF/zx55q05/proprietary/vendor/lib64/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libvoice-svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvoice-svc.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
