@@ -510,36 +510,38 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libmmcamera_s5k5e2_F5E2YAU.so:system/vendor/lib64/libmmcamera_s5k5e2_F5E2YAU.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libmmcamera_s5k5e2_SFS5C7597.so:system/vendor/lib64/libmmcamera_s5k5e2_SFS5C7597.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libmmcamera_t4kb3.so:system/vendor/lib64/libmmcamera_t4kb3.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz.so:system/vendor/lib/libactuator_rohm_bu64297gwz.so \  
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz.so:system/vendor/lib/libactuator_rohm_bu64297gwz.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so  \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64297gwz_camera.so  \                                              
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so  \                                               
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so  \                                        
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so  \                                             
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_nubiacust.so:system/vendor/lib/libchromatix_ov5670_q5v41b_nubiacust.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so  \                                              
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so  \                                             
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so  \                                             
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res0_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res0_common.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res0_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res0_snapshot.so  \                                          
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res1_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res1_common.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res1_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res1_snapshot.so  \                                          
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res2_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res2_common.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res2_video.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res2_video.so  \                                             
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res3_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res3_common.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res3_video.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res3_video.so  \                                             
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res4_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res4_common.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res4_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res4_snapshot.so  \                                          
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res5_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res5_common.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res5_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res5_snapshot.so  \                                          
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res6_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res6_common.so  \                                            
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res6_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res6_snapshot.so  \                                          
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so  \                                                       
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_ov5670_q5v41b_eeprom.so  \                                                
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_mcnex.so:system/vendor/lib/libmmcamera_t4kb3_mcnex.so  \                                                         
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_mcnex_eeprom.so:system/vendor/lib/libmmcamera_t4kb3_mcnex_eeprom.so  \                                                  
-    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech.so:system/vendor/lib/libmmcamera_t4kb3_qtech.so  \             vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech_eeprom.so:system/vendor/lib/libmmcamera_t4kb3_qtech_eeprom.so  \                                                  
-    vendor/LYF/zx55q05/proprietary/vendor/lib/sensors.native.so:system/vendor/lib/sensors.native.so  \                               vendor/LYF/zx55q05/proprietary/vendor/lib64/sensors.native.so:system/vendor/lib64/sensors.native.so                                                                    
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64297gwz_camera.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_nubiacust.so:system/vendor/lib/libchromatix_ov5670_q5v41b_nubiacust.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res0_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res0_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res0_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res0_snapshot.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res1_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res1_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res1_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res1_snapshot.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res2_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res2_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res2_video.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res2_video.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res3_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res3_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res3_video.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res3_video.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res4_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res4_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res4_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res4_snapshot.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res5_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res5_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res5_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res5_snapshot.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res6_common.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res6_common.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libchromatix_t4kb3_mcnex_res6_snapshot.so:system/vendor/lib/libchromatix_t4kb3_mcnex_res6_snapshot.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_ov5670_q5v41b_eeprom.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_mcnex.so:system/vendor/lib/libmmcamera_t4kb3_mcnex.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_mcnex_eeprom.so:system/vendor/lib/libmmcamera_t4kb3_mcnex_eeprom.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech.so:system/vendor/lib/libmmcamera_t4kb3_qtech.so \
+	vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech_eeprom.so:system/vendor/lib/libmmcamera_t4kb3_qtech_eeprom.so  \
+	vendor/LYF/zx55q05/proprietary/vendor/lib/sensors.native.so:system/vendor/lib/sensors.native.so  \
+	vendor/LYF/zx55q05/proprietary/vendor/lib64/sensors.native.so:system/vendor/lib64/sensors.native.so
 
 
 PRODUCT_PACKAGES += \
