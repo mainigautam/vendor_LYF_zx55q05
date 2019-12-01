@@ -541,7 +541,11 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech.so:system/vendor/lib/libmmcamera_t4kb3_qtech.so \
 	vendor/LYF/zx55q05/proprietary/vendor/lib/libmmcamera_t4kb3_qtech_eeprom.so:system/vendor/lib/libmmcamera_t4kb3_qtech_eeprom.so  \
 	vendor/LYF/zx55q05/proprietary/vendor/lib/sensors.native.so:system/vendor/lib/sensors.native.so  \
-	vendor/LYF/zx55q05/proprietary/vendor/lib64/sensors.native.so:system/vendor/lib64/sensors.native.so
+	vendor/LYF/zx55q05/proprietary/vendor/lib64/sensors.native.so:system/vendor/lib64/sensors.native.so \
+	vendor/LYF/zx55q05/proprietary/vendor/lib/hw/sensors.msm8916.so:system/vendor/lib/hw/sensors.msm8916.so  \
+        vendor/LYF/zx55q05/proprietary/vendor/lib64/hw/sensors.msm8916.so:system/vendor/lib64/hw/sensors.msm8916.so \
+	vendor/LYF/zx55q05/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so  \
+        vendor/LYF/zx55q05/proprietary/vendor/lib64/listlport.so:system/vendor/lib64/libstlport.so
 
 
 PRODUCT_PACKAGES += \
