@@ -395,7 +395,12 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/sensors.native.so:system/vendor/lib64/sensors.native.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/hw/sensors.msm8916.so:system/vendor/lib/hw/sensors.msm8916.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/hw/sensors.msm8916.so:system/vendor/lib64/hw/sensors.msm8916.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/libstlport.so:system/vendor/lib64/libstlport.so
 
 # ANT-blobs (kang from xiaomi_msm8953-common)
 PRODUCT_COPY_FILES += \
