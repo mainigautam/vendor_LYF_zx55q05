@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mobee01a)
+ifeq ($(TARGET_DEVICE),zx55q05)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
