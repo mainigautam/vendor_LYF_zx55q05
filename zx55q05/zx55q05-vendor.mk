@@ -511,9 +511,9 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libmmcamera_s5k5e2_SFS5C7597.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_s5k5e2_SFS5C7597.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/libmmcamera_t4kb3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_t4kb3.so  \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/sensors.native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.native.so \
-    vendor/LYF/zx55q05/proprietary/vendor/lib/sensors.native.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/sensors.native.so  \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/sensors.native.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.native.so  \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so  \
-    vendor/LYF/zx55q05/proprietary/vendor/lib64/listlport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport.so
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport.so
 
 
 PRODUCT_PACKAGES += \
