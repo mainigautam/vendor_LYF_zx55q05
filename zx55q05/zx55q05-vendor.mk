@@ -513,7 +513,9 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/zx55q05/proprietary/vendor/lib64/sensors.native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.native.so \
     vendor/LYF/zx55q05/proprietary/vendor/lib/sensors.native.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.native.so  \
     vendor/LYF/zx55q05/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so  \
-    vendor/LYF/zx55q05/proprietary/vendor/lib64/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport.so
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib64/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8916.so \
+    vendor/LYF/zx55q05/proprietary/vendor/lib/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8916.so
 
 
 PRODUCT_PACKAGES += \
